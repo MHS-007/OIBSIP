@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="LandingPage_Style.css" />
+    <title>Samsung Galaxy Smartphones in Pakistan - August 2023</title>
+    <script
+      src="https://kit.fontawesome.com/dea622ec45.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <div class="navbar">
+      <div class="navbar-content">
+        <a href="/Task 1/Landing_Page.html" class="active">Home</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#specs">Specifications</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- IMAGE CONTAINER -->
+    <div class="image-container">
+      <img
+        src="/images1/Galaxy_Background.jpg"
+        alt="Partial Page Image"
+        class="Backimage"
+      />
+
+      <div class="buttons-overlay1">
+        <button id="backwardBtn" class="nav-button1" onclick="changeImage(-1)">
+          &#129144;
+        </button>
+      </div>
+
+      <div class="buttons-overlay2">
+        <button id="forwardBtn" class="nav-button2" onclick="changeImage(1)">
+          &#129146;
+        </button>
+      </div>
+
+      <div class="text-overlay">
+        <h1>Recently Launched Samsung<br/>Smartphones In Pakistan<br/></h1>
+        <span class="update">(Created on 30th August &ndash; 2023)</span>
+        <br>
+        <span class="publisher">by Maaz Siddiqui</span>
+      </div>
+      <img src="/images1/F_34.png" alt="Partial Page Image" id="image" />
+    </div>
+
+    <!-- DISCOUNT SECTION -->
+    <section class="getdiscount">
+      
+      <h2>Get up to 30&percnt; Discount</h2>
+      <span>(Only for first 10,000 customers)</span>
+
+      <figure class="discount">
+        <div>
+          <img src="/images1/SG_F34.png" height="200" width="100" />
+            <div class="price-container">
+                <div class="original-price">Original Price: $72,450</div>
+                  <div class="discounted-price">Discounted Price: $50,715</div>
+            </div>
+          <button class="quantity-btn" data-product="SG_F34">+</button>
+          <input
+            type="text"
+            class="quantity-input"
+            id="SG_F34-quantity"
+            value="0"
+            readonly
+          />
+          <button class="quantity-btn" data-product="SG_F34">-</button>
+        </div>
+        <div>
+          <img src="/images1/SG_A34.png" height="200" width="100" />
+              <div class="price-container">
+                <div class="original-price">Original Price: $88,660</div>
+                  <div class="discounted-price">Discounted Price: $62,062</div>
+              </div>
+          <button class="quantity-btn" data-product="SG_A34">+</button>
+          <input
+            type="text"
+            class="quantity-input"
+            id="SG_A34-quantity"
+            value="0"
+            readonly
+          />
+          <button class="quantity-btn" data-product="SG_A34">-</button>
+        </div>
+        <div>
+          <img src="/images1/SG_A54.png" height="200" width="100" />
+          <div class="price-container">
+            <div class="original-price">Original Price: $106,960</div>
+              <div class="discounted-price">Discounted Price: $74,872</div>
+          </div>
+          <button class="quantity-btn" data-product="SG_A54">+</button>
+          <input
+            type="text"
+            class="quantity-input"
+            id="SG_A54-quantity"
+            value="0"
+            readonly
+          />
+          <button class="quantity-btn" data-product="SG_A54">-</button>
+        </div>
+      </figure>
+
+      <div class="btn-container">
+        <button class="btn-1" data-product="SG_F34">Add To Cart</button>
+        <button class="btn-2" data-product="SG_A34">Add To Cart</button>
+        <button class="btn-3" data-product="SG_A54">Add To Cart</button>
+      </div>
+    
+    </section>
+
+    <!-- SPECIFICATION SECTION -->
+    <!-- SPECIFICATION 1 -->
+    <section class="specifications-imgs" id="specs">
+      
+      <h2>Key Specifications</h2>
+
+      <img src="/images1/SGF34_duo.png" height="250" width="190" />
+      <div class="specifications">
+        <div class="specification">
+          <i class="fas fa-microchip spec-icon"></i>
+          <div class="spec-text">Octa core (2.4 GHz, 2 GHz) Processor</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-mobile-alt spec-icon"></i>
+          <div class="spec-text">6.5 Inches Screen</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-memory spec-icon"></i>
+          <div class="spec-text">8GB RAM</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-battery-full spec-icon"></i>
+          <div class="spec-text">6000mAh Battery</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-hdd spec-icon"></i>
+          <div class="spec-text">128GB Storage</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-camera spec-icon"></i>
+          <div class="spec-text">50MP+8MP+2MP Camera</div>
+        </div>
+        <div class="specification">
+          <i class="fab fa-android spec-icon"></i>
+          <div class="spec-text">Android 13, One UI 5.1</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-calendar-alt spec-icon"></i>
+          <div class="spec-text">Release Date: August 7, 2023</div>
+        </div>
+      </div>
+
+      <!-- SPECIFICATION 2 -->
+      <img src="/images1/SGA34_duo.png" height="250" width="190" />
+      <div class="specifications" id="a34">
+        <div class="specification">
+          <i class="fas fa-microchip spec-icon"></i>
+          <div class="spec-text">2.6 MHz Octa core Processor</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-mobile-alt spec-icon"></i>
+          <div class="spec-text">6.6 Inches Screen</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-memory spec-icon"></i>
+          <div class="spec-text">6GB/8GB RAM</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-battery-full spec-icon"></i>
+          <div class="spec-text">5000mAh Battery</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-hdd spec-icon"></i>
+          <div class="spec-text">128GB, 256GB Storage</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-camera spec-icon"></i>
+          <div class="spec-text">48MP+8MP+5MP Camera</div>
+        </div>
+        <div class="specification">
+          <i class="fab fa-android spec-icon"></i>
+          <div class="spec-text">Android 13, One UI 5.1</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-calendar-alt spec-icon"></i>
+          <div class="spec-text">Release Date: March 24, 2023</div>
+        </div>
+      </div>
+
+      <!-- SPECIFICATION 3 -->
+      <img src="/images1/SGA54_duo.png" height="250" width="190" />
+      <div class="specifications" id="a54">
+        <div class="specification">
+          <i class="fas fa-microchip spec-icon"></i>
+          <div class="spec-text">2.4 MHz octa-core Processor</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-mobile-alt spec-icon"></i>
+          <div class="spec-text">6.4 Inches Screen</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-memory spec-icon"></i>
+          <div class="spec-text">6GB/8GB RAM</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-battery-full spec-icon"></i>
+          <div class="spec-text">5000mAh Battery</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-hdd spec-icon"></i>
+          <div class="spec-text">128GB, 256GB Storage</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-camera spec-icon"></i>
+          <div class="spec-text">50MP+12MP+5MP Camera</div>
+        </div>
+        <div class="specification">
+          <i class="fab fa-android spec-icon"></i>
+          <div class="spec-text">Android 13, One UI 5.1</div>
+        </div>
+        <div class="specification">
+          <i class="fas fa-calendar-alt spec-icon"></i>
+          <div class="spec-text">Release Date: March 24, 2023</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+
+    <div class="review-section" id="reviews">
+      <h2>Reviews</h2>
+      <div class="review">
+        <div class="user-info">
+          <img class="user-avatar" src="/images1/emily.jpg" alt="User 1" />
+          <div>
+            <div class="firstuser-name"><b>Emily</b></div>
+            <div class="user-comment">
+              "I'm loving my new Samsung Galaxy phone! The camera quality is
+              mind-blowing, and the sleek design is just impressive. Highly
+              recommended!"
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="user-info">
+          <img class="user-avatar" src="/images1/alex.jpg" alt="User 2" />
+          <div>
+            <div class="seconduser-name"><b>Alex</b></div>
+            <div class="user-comment">
+              "The performance of the Samsung Galaxy phone is top-notch. I can
+              multitask smoothly, and the battery life is fantastic. Definitely
+              worth the investment!"
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="user-info">
+          <img class="user-avatar" src="/images1/Sophia.jpg" alt="User 3" />
+          <div>
+            <div class="thirduser-name"><b>Sophia</b></div>
+            <div class="user-comment">
+              "Samsung Galaxy phones never disappoint. The AMOLED display is
+              stunning, and the user experience is seamless. I can't imagine
+              using any other phone now."
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="user-info">
+          <img class="user-avatar" src="/images1/john.jpg" alt="User 4" />
+          <div>
+            <div class="fourth-name"><b>John</b></div>
+            <div class="user-comment">
+              "I recently got my hands on the Samsung Galaxy smartphone, and I'm impressed with its performance. The camera captures stunning photos, and the battery life easily gets me through the day. Overall, a great choice!"
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    
+    <footer class="footer-section" id="contact">
+      <section class="container">
+        <section class="footer-content">
+          <section class="footer-contact">
+            <h3>Contact Info</h3>
+            <ul>
+              <li><i class="fas fa-mobile-alt"></i> Mobile: 03130250951</li>
+              <li><i class="fab fa-whatsapp"></i> WhatsApp: 03147987990</li>
+              <li><i class="far fa-envelope"></i> Email Address: <a href="mailto:siddiquimaaz94@gmail.com">siddiquimaaz94@gmail.com</a></li>
+            </ul>
+          </section>
+          <section class="footer-links">
+            <h3>Details of Specifications</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://g-mart.pk/mobile/samsung-galaxy-f34/"
+                  target="_blank"
+                  >Samsung Galaxy F34 5G</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://g-mart.pk/mobile/samsung-galaxy-a34/"
+                  target="_blank"
+                  >Samsung Galaxy A34 5G</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://g-mart.pk/mobile/samsung-galaxy-a54/"
+                  target="_blank"
+                  >Samsung Galaxy A54 5G</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="footer-social">
+            <h3>Follow Us</h3>
+            <a href="https://github.com/MHS-007" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/maaz-siddiqui-01592520b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/MaazSid07229255" target="_blank"><i class="fab fa-twitter"></i></a>
+          </section>
+        </section>
+
+        <section class="footer-copyright">
+          <span>&#9400; 2023 MaazSiddiqui. All Rights Reserved.</span>
+        </section>
+      </section>
+    </footer>
+
+    <script src="LandingPage.js"></script>
+  </body>
+</html>
