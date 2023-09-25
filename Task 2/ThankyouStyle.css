@@ -1,0 +1,19 @@
+body,html{
+    background-image: url(/images2/ThankyouBG1.png);
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+    background-position: 150px -10px;
+   
+}
+
+h2{
+    color: rgb(43, 61, 226);
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    transform: translate(-0px,330px);
+    font-size: 28px;
+}
+
+h2:hover{
+    color: rgb(216, 33, 64);
+}
